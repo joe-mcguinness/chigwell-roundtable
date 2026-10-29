@@ -1,0 +1,10 @@
+# GitHub Pages settings. Keeps the test setup out of the published site.
+exclude:
+  - README.md
+  - package.json
+  - package-lock.json
+  - playwright.config.ts
+  - tests/
+  - node_modules/
+  - test-results/
+  - playwright-report/
